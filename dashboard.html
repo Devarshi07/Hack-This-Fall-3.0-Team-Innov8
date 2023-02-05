@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- FontAwesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar top -->
+    <div class="navbar-top">
+        <div class="title">
+            <h1 style="color: #ffff; font-size: 1.5rem; letter-spacing: .2rem; text-transform: uppercase;">Internkul</h1>
+        </div>
+
+        <!-- Navbar -->
+        <ul>
+            <li>
+                <a href="http://localhost:3000/">
+                    <i class="fa fa-sign-out-alt fa-2x" style="color: aliceblue;"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- End -->
+    </div>
+    <!-- End -->
+
+    <!-- Sidenav -->
+    <div class="sidenav">
+        <div class="profile">
+            <input type="image" src="Innov8\jobboard-master\images\person_5.jpg" alt="" width="100" height="100">
+
+            <div class="name">
+               Ramanujan
+            </div>
+            <div class="job">
+                 Developer
+            </div>
+        </div>
+
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="http://localhost:3000/dashboard" class="active">Dashboard</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="http://localhost:3000/profile">Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="http://localhost:3000/job_listings">Apply For Internship</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="http://localhost:3000/application">My applications</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="http://localhost:3000/courses">Courses</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="http://localhost:3000/documents">My Documents</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+
+    <!-- End -->
+    <main class="content-wrap" id="dashboard"> 
+		<div class="content">
+			<section class="info-boxes">
+				<div class="info-box">
+					<div class="box-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 20V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1zm-2-1H5V5h14v14z"/><path d="M10.381 12.309l3.172 1.586a1 1 0 0 0 1.305-.38l3-5-1.715-1.029-2.523 4.206-3.172-1.586a1.002 1.002 0 0 0-1.305.38l-3 5 1.715 1.029 2.523-4.206z"/></svg>
+					</div>
+					
+					<div class="box-content">
+						<span class="big"> 0 </a></span>
+                        <a href="http://localhost:3000/application"  style="text-decoration: auto; color: #373231; fill: #286363;" >My applications</a>
+					</div>
+				</div>
+				
+				<div class="info-box">
+					<div class="box-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 10H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1zm-1 10H5v-8h14v8zM5 6h14v2H5zM7 2h10v2H7z"/></svg>
+					</div>
+					
+					<div class="box-content">
+						<span class="big"> 0 </span>
+						<a href="http://localhost:3000/courses" style="text-decoration: auto; color: #373231; fill: #286363;">Courses</a>
+					</div>
+				</div>
+				
+				<div class="info-box active">
+					<div class="box-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3,21c0,0.553,0.448,1,1,1h16c0.553,0,1-0.447,1-1v-1c0-3.714-2.261-6.907-5.478-8.281C16.729,10.709,17.5,9.193,17.5,7.5 C17.5,4.468,15.032,2,12,2C8.967,2,6.5,4.468,6.5,7.5c0,1.693,0.771,3.209,1.978,4.219C5.261,13.093,3,16.287,3,20V21z M8.5,7.5 C8.5,5.57,10.07,4,12,4s3.5,1.57,3.5,3.5S13.93,11,12,11S8.5,9.43,8.5,7.5z M12,13c3.859,0,7,3.141,7,7H5C5,16.141,8.14,13,12,13z"/></svg>
+					</div>
+					
+					<div class="box-content">
+						<span class="big"> 0 </span>
+						<a href="http://localhost:3000/certificates"  style="text-decoration: auto; color: #373231; fill: #286363;" >Interkul certifications</a>
+					</div>
+				</div>
+				
+			</section>
+		
+		</div>
+	</main>
+</body>
+</html>
